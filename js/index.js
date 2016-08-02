@@ -427,7 +427,7 @@ jQuery(document).ready(function($){
 	$('#jdshop .fore9').one('mouseover',function(){
 		$.ajax({
 			type:'get',
-			url:'http://192.168.0.104/JD/js/e.json',
+			url:'js/e.json',
 			beforeSend:function(XMLHttpRequest){},
 			success:function(result,Status){
 				$.each(result.data,function(index,item){
